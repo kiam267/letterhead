@@ -1,9 +1,9 @@
-import Image from 'next/image';
 import React from 'react';
+import Image from 'next/image';
 
 function About() {
   return (
-    <section id="#about" className="lg:container mt-20">
+    <section id="about" className="lg:container mt-20">
       <div className="flex justify-center">
         <div className="relative w-[100px] flex items-center gap-x-1 border-gray-400 border p-1 px-5 rounded-full ">
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-[#F97316]  to-transparent  h-px " />
@@ -14,7 +14,7 @@ function About() {
 
       <div className="mt-28 grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-5 items-center">
         <div>
-          <h2 className="text-4xl text-[#000D49] font-bold text-start">
+          <h2 className="text-2xl lg:text-4xl text-[#000D49] font-bold text-start">
             The best platform to create your own letterhead
             without any hassle.
           </h2>

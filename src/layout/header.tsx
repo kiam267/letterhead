@@ -20,6 +20,10 @@ export default function Header() {
       name: 'Features',
       link: '#features',
     },
+    {
+      name: 'Testimonials',
+      link: '#testimonials',
+    },
   ];
 
   return (

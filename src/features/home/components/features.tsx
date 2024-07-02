@@ -1,11 +1,11 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 import { MoveRight } from 'lucide-react';
 
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import AutoCarousel from '@/features/features/components/auto-carousel';
-import Image from 'next/image';
+import AutoCarousel from '@/components/ui/auto-carousel';
 
 const TEXTS = ['name', 'email', 'phone', 'address'];
 function Features() {
@@ -22,13 +22,22 @@ function Features() {
     TEXTS[index % TEXTS.length]
   }`;
   return (
-    <section id="#features" className="lg:container mt-20">
+    <section id="features" className="lg:container mt-20">
       <div className="flex justify-center">
         <div className="relative w-[120px] flex items-center gap-x-1 border-gray-400 border p-1 px-5 rounded-full ">
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-[#F97316]  to-transparent  h-px " />
           <div className="flex items-center justify-center bg-[#F97316] h-2 w-2 rounded-full -z-[1px]"></div>
           <span className="font-bold"> features</span>
         </div>
+      </div>
+      <div className="my-10">
+        <h2 className=" text-2xl lg:text-4xl text-center font-bold lg:w-1/2 block m-auto leading-tight text-[#000D49] ">
+          All in one tool for Generating your letterhead
+          using{' '}
+          <span className="text-orange-500 ">
+            letterhead.com
+          </span>
+        </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3   mt-7 my-10 gap-10">
         {/* item - 1  */}

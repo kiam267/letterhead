@@ -1,17 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
+import { MoveRight } from 'lucide-react';
+
 
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
-import { MoveRight } from 'lucide-react';
-import { cn } from '@/lib/utils';
+
 
 interface MobileNavProps
   extends React.HtmlHTMLAttributes<HTMLDivElement> {
