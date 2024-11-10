@@ -23,7 +23,7 @@ import { MoveRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export const templates = [
-  {
+  {~
     id: '30489458',
     src: '/letterhead.jpg',
   },
